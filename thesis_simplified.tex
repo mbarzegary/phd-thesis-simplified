@@ -5,12 +5,16 @@
 \usepackage{amssymb}
 
 \usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
 
 \usepackage{cite}
 \usepackage{tcolorbox}
 \usepackage[group-separator={,}]{siunitx}
 \usepackage{multirow}
 \usepackage{hyperref}
+
+\usepackage[page,titletoc]{appendix}
 
 \title{Mathematical and computational modeling of metallic biomaterials biodegradation}
 \author{Mojtaba Barzegari}
@@ -36,6 +40,11 @@
 \graphicspath{{chapters/kinetics/image/}}
 \include{chapters/kinetics/kinetics}
 
+\graphicspath{{chapters/tissue/image/}}
+\include{chapters/tissue/tissue}
+
+\graphicspath{{chapters/hpc/image/}}
+\include{chapters/hpc/hpc}
 
 \bibliographystyle{ieeetr}
 \bibliography{allpapers}
