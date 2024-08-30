@@ -498,14 +498,17 @@ combinations of {KSP} types and preconditioners were evaluated, such
 as Conjugate Gradients ({CG}), Successive Over-Relaxation ({SOR}),
 block Jacobi, and Algebraic Multigrid ({AMG}), and Generalized Minimal Residual Method ({GMRES}). The tests were performed using 6 {MPI} cores on an Ubuntu machine with an Intel Core i7-8850H {CPU} (2.6 GHz of clock speed) and a total available memory of 32 GB.
 
-\begin{figure}[h]
+\newpage
+
+\begin{figure}[!h]
 \centering
 \medskip
 \includegraphics[width=\textwidth]{compare.jpg}
 \caption[Performance test result for various preconditioners and solvers]{Performance test result for various combinations of preconditioners and solvers. Results are broken down into contributions  for each {PDE}, which are plotted  cumulatively and separately in the left and right plots, respectively.} \label{fig:compare_precond}
 \end{figure}
 
-\begin{table}[ht]
+
+\begin{table}[!h]
 \centering
 \medskip
 \caption[Performance test result for various preconditioners and solvers]{Performance test result for various combinations of preconditioners and solvers, presented by the execution time of each {PDE}.}
